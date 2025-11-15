@@ -1,0 +1,128 @@
+h1 {
+  width: 1000px;
+  height: 18px;
+  font-size: 18px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+.mainvisual {
+  width: 1000px;
+  display: block;
+  margin: auto;
+  margin-bottom: 60px;
+}
+.index {
+  width: 800px;
+  height: 422px;
+  margin: auto;
+  background-color: #f5f5f5;
+  margin-bottom: 60px;
+  padding-top: 65px;
+}
+.index__title {
+  font-size: 18px;
+  font-weight: bold;
+  width: 55px;
+  height: 18px;
+  margin: auto;
+  margin-bottom: 37px;
+  text-align: center;
+  /* background-color: aqua; */
+}
+.index__inner {
+  width: 680px;
+  height: 245px;
+  margin: auto;
+  border: solid 1px black;
+  padding-top: 25px;
+  /* display: flex;
+  flex-wrap: wrap;
+  align-content: space-between; */
+}
+.index__list {
+  width: 680px;
+  height: 245px;
+  text-align: center;
+  list-style: decimal;
+  list-style-position: inside;
+}
+.index__list__item {
+  margin-bottom: 25px;
+}
+.images {
+  width: 800px;
+  height: 537px;
+  gap: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 60px;
+}
+.detail {
+  width: 800px;
+  height: 323px;
+  background-color: #f5f5f5;
+  margin: auto;
+  padding-top: 65px;
+}
+.detail__title {
+  width: 64px;
+  height: 18px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: auto;
+  margin-bottom: 37px;
+}
+.detail__inner {
+  width: 664px;
+  height: 128px;
+  /* background-color: blueviolet; */
+  margin: auto;
+  display: flex;
+}
+.detail__inner__list {
+  font-size: 14px;
+  width: 168px;
+  height: 128px;
+  /* background-color: brown; */
+}
+.detail__list__author {
+  margin-bottom: 17px;
+}
+.detail__list__publisher {
+  margin-bottom: 17px;
+}
+.detail__inner__border {
+  width: 50px;
+  height: 128px;
+  border-right: solid 2px black;
+  /* background-color: rgb(6, 95, 83); */
+}
+.detail__inner__gap {
+  width: 50px;
+  height: 128px;
+}
+.detail__inner__content {
+  width: 386px;
+  height: 128px;
+  font-size: 14px;
+  /* background-color: chartreuse; */
+  .detail__inner__link {
+    text-decoration: underline;
+  }
+  .detail__inner__firstdescription {
+    margin-bottom: 24px;
+  }
+  .detail__inner__seconddescription {
+    margin-bottom: 24px;
+  }
+}
+.footer {
+  width: 111px;
+  height: 10px;
+  font-size: 10px;
+  margin: auto;
+  margin-top: 78px;
+  margin-bottom: 17px;
+}
